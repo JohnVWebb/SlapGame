@@ -11,17 +11,42 @@
     <link rel="stylesheet" href="game.css">
   </head>
   <body>
-      
-    <header>
 
+    <header>
+        <div class="row bg-success justify-content-center text-center">
+            <div class="col">
+                <span>Name:<span id="name"></span></span>
+            </div>
+            <div class="col">
+                <span>Health:<span id="health">100</span></span>
+            </div>
+            <div class="col">
+                <span>Hits:<span id="hits"></span></span>
+            </div>
+        </div>
+        
     </header>
 
     <main>
-
+        <div class="row justify-content-center text-center">
+            <div class="col">
+                <img class="dog" src="https://external-preview.redd.it/hyrU4eEK6KH6UuNUS2lZMrG2-N6kAnLA4NUXsMLiPNM.jpg?auto=webp&s=7e89e06f309da5b22812d34d6adf9957ea2658fd" alt="">
+            </div>
+        </div>
     </main>
 
     <footer>
-
+        <div class="row">
+            <div class="col-12 py-5">
+                <button type="button" onclick="slap()" class="btn btn-primary btn btn-block">Slap</button>
+            </div>
+            <div class="col-6">
+                <button type="button" onclick="punch()" class="btn btn-primary btn btn-block">Punch</button>
+            </div>
+            <div class="col-6">
+                <button type="button" onclick="kick()" class="btn btn-primary btn btn-block">Kick</button>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
