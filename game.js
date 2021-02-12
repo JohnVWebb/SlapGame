@@ -50,7 +50,7 @@ function kick(){
 }
 
 function update(){
-    if( dog.health < 0){
+    if(dog.health < 0){
         dog.health = 0
     }
   document.getElementById('health').innerText = dog.health.toString()
